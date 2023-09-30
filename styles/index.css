@@ -4,7 +4,6 @@
 }
 body{
     margin: 0px;
-    overflow: hidden;
     /* background-color: rgb(30, 63, 30); */
 }
 header{
@@ -100,7 +99,18 @@ nav{
         flex-wrap: wrap;
     }
 }
-    
+@media only screen and (min-width:701px) and (max-width:1400px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .signup{
+        margin-right: 1.5vw;
+    }
+    .top_musica, .top_podcasts{
+        margin-left: -1vw;
+    }
+}
 .top_musica, .top_podcasts{
     position: relative;
     display: inline-block;
@@ -126,6 +136,10 @@ nav{
     .login, .signup {
         font-size: 0.75rem;
         padding: 2px;
+        border: solid black 1px;
+    }
+    .signup{
+        margin-right: 1.5vw;
     }
     .login:hover {
         transform: scale(105%);
@@ -137,14 +151,15 @@ nav{
         height: max-content;
     }
     .top_musica {
-        width: 95vw;
+        width: 90vw;
         position: relative;
-
+        margin-left: -1vw;
     }    
     .top_podcasts {
-        margin-top: 1vh;
-        width: 95vw;
+        margin-top: 2vh;
+        width: 90vw;
         position: relative;
+        margin-left: -1vw;
     }
 }
 
