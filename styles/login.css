@@ -1,119 +1,118 @@
-        * {
-            padding: 0px;
-            margin: 0px;
+* {
+       padding: 0px;
+       margin: 0px;
 
-            font-family: 'Oswald', sans-serif;
-            font-family: 'Ubuntu', sans-serif;
-        }
+       font-family: 'Oswald', sans-serif;
+       font-family: 'Ubuntu', sans-serif;
+ }
 
-        body {
-            background-image: url(https://media.giphy.com/media/cmegx6SssTKmEFEcwj/giphy.gif);
-            background-repeat: no-repeat;
-            background-size: 100vw;
-            background-position: center;
-        }
+body {
+        background-image: url(https://media.giphy.com/media/cmegx6SssTKmEFEcwj/giphy.gif);
+        background-repeat: no-repeat;
+         background-size: 100vw;
+        background-position: center;
+       }
+header {
+        box-sizing: content-box;
+        margin-top: 30px;
+        margin-bottom: 30px;
+ }
 
-        header {
-            box-sizing: content-box;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
+.titulo {
+        text-decoration: none;
+       color: rgb(0, 0, 0);
+       }
 
-        .titulo {
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-        }
+ header,
+ main,
+ form {
+        text-align: center;
+       }
 
-        header,
-        main,
-        form {
-            text-align: center;
-        }
+.cc {
+       margin-bottom: -10px;
+       display: inline-flex;
+       text-decoration: none;
+       position: relative;
+       color: rgb(47, 0, 255);
+       background-color: #10121b;
+       padding: 10px;
+       border-radius: 30px;
+       border: rgb(47, 0, 255) solid 1px;
+       z-index: 2;
+       }
 
-        .cc {
-            margin-bottom: -10px;
-            display: inline-flex;
-            text-decoration: none;
-            position: relative;
-            color: rgb(47, 0, 255);
-            background-color: #10121b;
-            padding: 10px;
-            border-radius: 30px;
-            border: rgb(47, 0, 255) solid 1px;
-            z-index: 2;
-        }
+form {
+       background-color: #15171e;
+       border: solid #15171e 2px;
+       border-radius: 25px;
+       font-weight: bold;
+       position: relative;
+       width: 20vw;
+       height: 25vh;
+       padding-bottom: 10px;
+       position: relative;
+       left: 40vw;
+       color: rgb(255, 255, 255, .84);
+       z-index: 1;
+       }
 
-        form {
-            background-color: #15171e;
-            border: solid #15171e 2px;
-            border-radius: 25px;
-            font-weight: bold;
-            position: relative;
-            width: 20vw;
-            height: 25vh;
-            padding-bottom: 10px;
-            position: relative;
-            left: 40vw;
-            color: rgb(255, 255, 255, .84);
-            z-index: 1;
-        }
+label {
+       display: grid;
 
-        label {
-            display: grid;
+       }
 
-        }
+input {
+       width: 70%;
+       margin-bottom: 10px;
+       text-align: center;
+       }
 
-        input {
-            width: 70%;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+a {
+       text-decoration: none;
+       }
 
-        a {
-            text-decoration: none;
-        }
+button[type="submit"] {
+       background-color: #007BFF;
+       color: #fff;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 3px;
+       font-size: 16px;
+       cursor: pointer;
+       }
 
-        button[type="submit"] {
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 3px;
-            font-size: 16px;
-            cursor: pointer;
-        }
+button[type="submit"]:hover {
+       background-color: #0056b3;
+       }
 
-        button[type="submit"]:hover {
-            background-color: #0056b3;
-        }
+input[type="text"],
+input[type="password"] {
+       width: 65%;
+       padding: 1px;
+       border: 1px solid #ccc;
+       border-radius: 3px;
+       font-size: 16px;
+       }
 
-        input[type="text"],
-        input[type="password"] {
-            width: 65%;
-            padding: 1px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            font-size: 16px;
-        }
+.form-group {
+       margin-top: 15px;
+       }
 
-        .form-group {
-            margin-top: 15px;
-        }
+.singup {
+       font-weight: bold;
+       font-size: 1em;
+       color: rgb(0, 0, 0);
+       }
 
-        .singup {
-            font-weight: bold;
-            font-size: 1em;
-            color: rgb(0, 0, 0);
-        }
+.asingup {
+       font-weight: bold;
+       font-size: 1em;
+       color: rgb(29, 63, 253);
+}
 
-        .asingup {
-            font-weight: bold;
-            font-size: 1em;
-            color: rgb(29, 63, 253);
-        }
-
-        .asingup:hover {
-            transition: 0.3s;
-            font-size: 1.05em;
-            color: rgb(47, 0, 255);
-        }
+.asingup:hover {
+       transition: 0.3s;
+       font-size: 1.05em;
+       color: rgb(47, 0, 255);
+       }
