@@ -7,19 +7,31 @@
     <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
-     <div class="login-container">
-        <h2>Iniciar Sesión</h2>
-        <form action="tu_script_de_inicio_de_sesion.php" method="POST">
-            <div class="form-group">
-                <label for="usuario">Usuario:</label>
-                <input type="text" id="usuario" name="usuario" required>
-            </div>
-            <div class="form-group">
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            </div>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
-    </div>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    <main>
+        <div class="login-container">
+            <h2 class="cc">Iniciar Sesión</h2>
+            <form method="get">
+                <div class="form-group">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+        <div class="singup">
+            <p>
+                ¿No tienes una cuenta?
+                <a href="singup.html" class="asingup">Crea una aqui</a>
+            </p>
+        </div>
+    </main>
 </body>
+
 </html>
