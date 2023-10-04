@@ -145,7 +145,7 @@ iframe{
     padding: 2vw;
     background-color: gray;
 }
-#copyright, #contact {
+#copyright, #contacto {
     display: flex;
     justify-content: center;
     margin-left: -4.5vw;
@@ -200,5 +200,11 @@ iframe{
 @media only screen and (min-width: 1500px){
     .footer_contenedor{
         position: absolute;
+    }
+    #contacto{
+        font-size: 1.4rem;
+    }
+    #copyright{
+        font-size: 1.25rem;
     }
 }
