@@ -186,6 +186,9 @@ iframe{
         position: relative;
         margin-left: -1vw;
     }
+    .footer_contenedor{
+        width: 90vw;
+    }
     #copyright{
         margin-left: 0;
         font-size: 0.8rem;
