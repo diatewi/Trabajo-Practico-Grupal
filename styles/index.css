@@ -99,13 +99,13 @@ nav{
         flex-wrap: wrap;
     }
 }
-@media only screen and (min-width:701px) and (max-width:1400px) {
+@media only screen and (min-width:701px) and (max-width:1500px) {
     body{
         overflow-x: hidden;
         overflow-y: scroll;
     }
     .signup{
-        margin-right: 1.5vw;
+        margin-right: 1vw;
     }
     .top_musica, .top_podcasts{
         margin-left: -1vw;
@@ -169,9 +169,11 @@ iframe{
 }
 .section3{
     margin-top: 15px;
+    height: 5vh;
 }
 .footer_contenedor{
     margin-top: 2vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +182,13 @@ iframe{
     padding: 2vw;
     background-color: gray;
 }
-#contact {
+@media only screen and (min-width: 1500px){
+    .footer_contenedor{
+        position: absolute;
+    }
+}
+#copyright, #contact {
     display: flex;
     justify-content: center;
+    margin-left: -4.5vw;
 }
