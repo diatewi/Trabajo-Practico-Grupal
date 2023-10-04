@@ -188,6 +188,8 @@ iframe{
     }
     .footer_contenedor{
         width: 100%;
+        margin: 0;
+        box-sizing: border-box;
     }
     #copyright{
         margin-left: 0;
